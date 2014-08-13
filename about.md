@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am Oliver Milke and I was born in 1985, made my first attempts with a personal computer in 1995 and discovered my love for programming in 2001. I have been working in Software Development companies continously since 2006.
+My name is Oliver Milke and I was born in 1985, made my first attempts with a personal computer in 1995 and discovered my love for programming in 2001. I have been working in Software Development companies continously since 2006.
 
 I received my Bachelor's Degree (1,3) in 2012/02 and have since been working in Java EE 6 environments.
 
