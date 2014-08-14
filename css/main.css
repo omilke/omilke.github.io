@@ -123,13 +123,21 @@ a:visited { color: #205caa; }
 }
 
 .github-icon-svg,
-.twitter-icon-svg {
+.twitter-icon-svg,
+.fa-bitbucket,
+.fa-stack-overflow {
   display: inline-block;
   width: 16px;
   height: 16px;
   position: relative;
   top: 3px;
 }
+
+.fa {
+    color: rgb(194,194,194);
+}
+
+
 
 
 /* Page Content styles */
