@@ -67,10 +67,11 @@ These are the steps I took to switching to JSR-310
 
 The last one was tricky, but luckily I had a unit test to save me. Also note that I avoided using lambas since that is not possible out of the box with GlassFish 4.0 (though [Oracle stated][1] they will introduce Java 8 support with GlassFish 4.1 ([should be out by Java One 2014][2])).
 
-Do you have any comments, corrections or additions? Please reply on twitter:
+Do you have any comments, corrections or additions? Please reply on [twitter][3]
 
 #####PS
 If any of you has an idea for a more readable transformation list, please share your thoughts as well. This is my first try with markdown.
 
 [1]: https://blogs.oracle.com/theaquarium/entry/spotlight_on_glassfish_4_1
 [2]: https://blogs.oracle.com/theaquarium/entry/glassfish_4_0_1_update
+[3]: https://twitter.com/OliverMilke/status/499912971238518784
