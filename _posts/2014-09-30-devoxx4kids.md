@@ -39,6 +39,8 @@ As soon as the our material is publicized, I will add a link to it.
 
 It was an amazing experience to work with the kids. They were so clever and interested. I am looking forward to the next Devoxx4Kids.
 
+Feel free to leave a comment on [twitter][7]
+
 Here are more impressions:
 
   * [synyx blog][4]
@@ -50,3 +52,4 @@ Here are more impressions:
 [4]: http://blog.synyx.de/2014/09/devoxx4kids-in-karlsruhe-programmieren-und-elektronik-fur-kids/
 [5]: https://www.facebook.com/media/set/?set=a.397948383691066.1073741830.274128946073011&type=1
 [6]: https://twitter.com/SvenRuppert
+[7]: https://twitter.com/OliverMilke/status/517004298346311680
