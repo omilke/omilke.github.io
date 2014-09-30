@@ -433,3 +433,11 @@ img.aside {
     float: right;
     margin-left: 15px;
 }
+
+#conversion-table  {
+ border-collapse: collapse;
+}
+
+#conversion-table td {
+    border: 1px solid black;
+}
