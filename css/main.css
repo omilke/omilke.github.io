@@ -416,3 +416,20 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+
+/*
+ * Custom Styles
+ */
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    color: #999999;
+}
+img.aside {
+    float: right;
+    margin-left: 15px;
+}
