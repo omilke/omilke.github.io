@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Devoxx4Kids in Karlsruhe"
-date:   2014-08-14 13:30:30
+date:   2014-09-30 18:00:00
 categories: devoxx4kids tinkerforge
 ---
 
