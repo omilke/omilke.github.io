@@ -19,7 +19,7 @@ This blog entry assumes a basic knowledge of AngularJS' controller concept and h
 #### Initial Situation
 For a little app I currently develop, I copied the basic nav bar example from the Bootstrap example and extended it with a some behaviour:
 
-<pre brush="html">
+{% highlight HTML %}
 &lt;li class="dropdown" ng-class="{
     active: isActive('/categories') || isActive('/fortune') ||
     isActive('/entry-report') || isActive('/savings') || isActive('/audit')
@@ -51,7 +51,7 @@ For a little app I currently develop, I copied the basic nav bar example from th
 
     &lt;/ul&gt;
 &lt;/li&gt;
-</pre>
+{% endhighlight %}
 
 `ng-class` is used to add a CSS classes to the element if the specified condition is met. `isActive` is a method of the corresponding
 AngularJS controller, which simply returns `true` if the currently active URI of the application ends with the provided string. This way an item is
@@ -66,7 +66,7 @@ There is a better way: an AngularJS directive helps us to remove the repetition 
 
 We create a directive:
 
-<pre brush="javascript">
+{% highlight Javascript %}
 var myDirectives = angular.module('myApp.directives', []);
 
 myDirectives.directive('navEntry', ['$location', function ($location) {
@@ -106,7 +106,7 @@ myDirectives.directive('navEntry', ['$location', function ($location) {
 
 
 }]);
-</pre>
+{% endhighlight %}
 
 <figure class="right" style="margin: 5px 0 5px 15px;">
     <img src="/img/angular/folderStructure.png" >
@@ -115,11 +115,11 @@ myDirectives.directive('navEntry', ['$location', function ($location) {
 
 This is the template, that the directives links to:
 
-<pre brush="html">
+{% highlight HTML %}
 &lt;li&gt;
     &lt;a &gt;{{title}}&lt;/a&gt;
 &lt;/li&gt;
-</pre>
+{% endhighlight %}
 
 Here are the core explanations
 
@@ -147,7 +147,7 @@ That's why setSafeLink() adds href instead.
 
 #### The Result
         
-<pre brush="html">
+{% highlight HTML %}
 &lt;li class="dropdown" ng-class="{
     active: isActive('/categories') || isActive('/fortune') ||
     isActive('/entry-report') || isActive('/savings') || isActive('/audit')
@@ -172,7 +172,7 @@ That's why setSafeLink() adds href instead.
 
     &lt;/ul&gt;
 &lt;/li&gt;
-</pre>
+{% endhighlight %}
 
 ### Conclusion
 
