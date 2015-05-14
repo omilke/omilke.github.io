@@ -16,7 +16,7 @@ This greatly helps to uniformly display currency values (especially depending on
     be displayed differently. Negative values should have a red font, positive values should have a green font.
 
 ### The primitive approach
-First I came up with a very primitive approach. Wherever I displayed currency values, I used <a href="https://docs.angularjs.org/api/ng/directive/ngClass#!">ng-class</a> to
+First I came up with a very primitive approach. Wherever I displayed currency values, I used [ng-class][3] to
     decide with class to apply depending on the value to display.
 
 {% highlight HTML %}
@@ -115,3 +115,4 @@ As with the last example, using this directive saves redundant code and makes yo
 
 [1]: /html/javascript/angularjs/2014/11/10/angularjs-directives-put-to-use-part-i/
 [2]: https://docs.angularjs.org/api/ng/filter/currency#!
+[3]: https://docs.angularjs.org/api/ng/directive/ngClass#!
