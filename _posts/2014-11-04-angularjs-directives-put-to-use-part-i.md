@@ -20,37 +20,37 @@ This blog entry assumes a basic knowledge of AngularJS' controller concept and h
 For a little app I currently develop, I copied the basic nav bar example from the Bootstrap example and extended it with a some behaviour:
 
 {% highlight HTML %}
-&lt;li class="dropdown" ng-class="{
+<li class="dropdown" ng-class="{
     active: isActive('/categories') || isActive('/fortune') ||
     isActive('/entry-report') || isActive('/savings') || isActive('/audit')
-    }"&gt;
+    }">
 
-    &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;
-        &lt;span class="glyphicon glyphicon-stats"&gt;&lt;/span&gt; Reports &lt;b class="caret"&gt;&lt;/b&gt;
-    &lt;/a&gt;
-    &lt;ul class="dropdown-menu"&gt;
-        &lt;li ng-class="{active: isActive('/categories')}"&gt;
-            &lt;a href="#/categories"&gt;Categories&lt;/a&gt;
-        &lt;/li&gt;
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <span class="glyphicon glyphicon-stats"></span> Reports <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+        <li ng-class="{active: isActive('/categories')}">
+            <a href="#/categories">Categories</a>
+        </li>
 
-        &lt;li ng-class="{active: isActive('/entry-report')}"&gt;
-            &lt;a href="#/entry-report"&gt;Entries&lt;/a&gt;
-        &lt;/li&gt;
+        <li ng-class="{active: isActive('/entry-report')}">
+            <a href="#/entry-report">Entries</a>
+        </li>
 
-        &lt;li ng-class="{active: isActive('/savings')}"&gt;
-            &lt;a href="#/savings"&gt;Savings&lt;/a&gt;
-        &lt;/li&gt;
+        <li ng-class="{active: isActive('/savings')}">
+            <a href="#/savings">Savings</a>
+        </li>
 
-        &lt;li ng-class="{active: isActive('/fortune')}"&gt;
-            &lt;a href="#/fortune"&gt;Fortune&lt;/a&gt;
-        &lt;/li&gt;
+        <li ng-class="{active: isActive('/fortune')}">
+            <a href="#/fortune">Fortune</a>
+        </li>
 
-        &lt;li ng-class="{active: isActive('/audit')}"&gt;
-            &lt;a href="#/audit"&gt;Audit&lt;/a&gt;
-        &lt;/li&gt;
+        <li ng-class="{active: isActive('/audit')}">
+            <a href="#/audit">Audit</a>
+        </li>
 
-    &lt;/ul&gt;
-&lt;/li&gt;
+    </ul>
+</li>
 {% endhighlight %}
 
 `ng-class` is used to add a CSS classes to the element if the specified condition is met. `isActive` is a method of the corresponding
@@ -116,9 +116,9 @@ myDirectives.directive('navEntry', ['$location', function ($location) {
 This is the template, that the directives links to:
 
 {% highlight HTML %}
-&lt;li&gt;
-    &lt;a &gt;{{title}}&lt;/a&gt;
-&lt;/li&gt;
+<li>
+    <a >{{title}}</a>
+</li>
 {% endhighlight %}
 
 Here are the core explanations
@@ -140,7 +140,7 @@ Here are the core explanations
 Actually I wanted to set the `href` attribute in the template, but AngularJS has some security mechanism that prevents us from using something like
 
 <pre brush="html">
-    &lt;a href="#{{path}}"&gt;...&lt;/a&gt;
+    <a href="#{{path}}">...</a>
 </pre>
 
 That's why setSafeLink() adds href instead.
@@ -148,30 +148,30 @@ That's why setSafeLink() adds href instead.
 #### The Result
         
 {% highlight HTML %}
-&lt;li class="dropdown" ng-class="{
+<li class="dropdown" ng-class="{
     active: isActive('/categories') || isActive('/fortune') ||
     isActive('/entry-report') || isActive('/savings') || isActive('/audit')
-    }"&gt;
+    }">
 
-    &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown"&gt;
-        &lt;span class="glyphicon glyphicon-stats"&gt;&lt;/span&gt; Reports &lt;b class="caret"&gt;&lt;/b&gt;
-    &lt;/a&gt;
-    &lt;ul class="dropdown-menu"&gt;
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+        <span class="glyphicon glyphicon-stats"></span> Reports <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
 
-        &lt;nav-entry path="/categories" title="Category Overview"&gt;&lt;/nav-entry&gt;
+        <nav-entry path="/categories" title="Category Overview"></nav-entry>
 
-        &lt;nav-entry path="/category" title="Category"&gt;&lt;/nav-entry&gt;
+        <nav-entry path="/category" title="Category"></nav-entry>
 
-        &lt;nav-entry path="/entry-report" title="Entries"&gt;&lt;/nav-entry&gt;
+        <nav-entry path="/entry-report" title="Entries"></nav-entry>
 
-        &lt;nav-entry path="/savings" title="Savings"&gt;&lt;/nav-entry&gt;
+        <nav-entry path="/savings" title="Savings"></nav-entry>
 
-        &lt;nav-entry path="/fortune" title="Fortune"&gt;&lt;/nav-entry&gt;
+        <nav-entry path="/fortune" title="Fortune"></nav-entry>
 
-        &lt;nav-entry path="/audit" title="Balance Audit"&gt;&lt;/nav-entry&gt;
+        <nav-entry path="/audit" title="Balance Audit"></nav-entry>
 
-    &lt;/ul&gt;
-&lt;/li&gt;
+    </ul>
+</li>
 {% endhighlight %}
 
 ### Conclusion
