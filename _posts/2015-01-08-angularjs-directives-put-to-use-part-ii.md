@@ -113,5 +113,5 @@ Now the linking function registers a listener to be executed upon a value change
 As with the last example, using this directive saves redundant code and makes your markup a little more DRY. I hope I could demonstrate another practical use of directives.
 
 
-[1]: html/javascript/angularjs/2014/11/10/angularjs-directives-put-to-use-part-i/
+[1]: /html/javascript/angularjs/2014/11/10/angularjs-directives-put-to-use-part-i/
 [2]: https://docs.angularjs.org/api/ng/filter/currency#!
