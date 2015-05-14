@@ -21,7 +21,7 @@ First I came up with a very primitive approach. Wherever I displayed currency va
 
 {% highlight HTML %}
 <td ng-class="{'positive': x.amount >= 0,
-                  'negative': x.amount < 0}">{{x.amount| currency }}</td>
+                  'negative': x.amount < 0}">{{ "{{x.amount| currency" }}}}</td>
 {% endhighlight %}
 
 This starts to get annoying pretty soon when all over your application markup like this pops up. I thought there had to be a more convenient way - and there was! You can guess it:
@@ -61,7 +61,7 @@ myDirectives.directive('accentuatedCurrency', function($filter) {
 With this directive I was able to simply use the following snippet:
 
 {% highlight HTML %}
-<td accentuated-currency="{{ "{{ x.amount " }}}}"></td>
+<td accentuated-currency="{{ "{{x.amount" }}}}"></td>
 {% endhighlight %}
 
 This made formatting currency values depending on the signum a breeze. However, some time later I had to learn that this directive wasn't as useful as I thought. This approach

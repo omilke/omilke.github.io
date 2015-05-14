@@ -117,7 +117,7 @@ This is the template, that the directives links to:
 
 {% highlight HTML %}
 <li>
-    <a >{{title}}</a>
+    <a >{{ "{{title" }}}}</a>
 </li>
 {% endhighlight %}
 
@@ -140,7 +140,7 @@ Here are the core explanations
 Actually I wanted to set the `href` attribute in the template, but AngularJS has some security mechanism that prevents us from using something like
 
 {% highlight HTML %}
-    <a href="#{{path}}">...</a>
+    <a href="#{{ "{{path" }}}}">...</a>
 {% endhighlight %}
 
 That's why setSafeLink() adds href instead.
