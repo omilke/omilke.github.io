@@ -139,9 +139,9 @@ Here are the core explanations
 
 Actually I wanted to set the `href` attribute in the template, but AngularJS has some security mechanism that prevents us from using something like
 
-<pre brush="html">
+{% highlight HTML %}
     <a href="#{{path}}">...</a>
-</pre>
+{% endhighlight %}
 
 That's why setSafeLink() adds href instead.
 
