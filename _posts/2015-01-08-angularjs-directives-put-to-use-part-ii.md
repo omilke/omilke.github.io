@@ -61,7 +61,7 @@ myDirectives.directive('accentuatedCurrency', function($filter) {
 With this directive I was able to simply use the following snippet:
 
 {% highlight HTML %}
-<td accentuated-currency="“{“{x.amount“}“}"></td>
+<td accentuated-currency="\{\{x.amount\}\}"></td>
 {% endhighlight %}
 
 This made formatting currency values depending on the signum a breeze. However, some time later I had to learn that this directive wasn't as useful as I thought. This approach
