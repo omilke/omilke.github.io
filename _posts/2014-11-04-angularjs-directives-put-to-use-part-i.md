@@ -9,7 +9,7 @@ categories: HTML javascript AngularJS
 [AngularJS][1] is a JavaScript framework that greatly assists in building rich client-side web applications. It pushes techniques
 well known among backend developers to the frontend, for instance dependency injection (DI) or expression binding (more precisely two-way-binding).
 
-Another truly helpful element of AngularJS are [directives[2]]. You can think of directives as your own means of extending HTML. Or consider it as a means
+Another truly helpful element of AngularJS are [directives][2]. You can think of directives as your own means of extending HTML. Or consider it as a means
 to reduce repetitive code in HTML and therefore making it more readable and improving maintainability.
 
 This blog entry assumes a basic knowledge of AngularJS' controller concept and how to bind to bind a value of the controller with {{}}.
@@ -132,11 +132,10 @@ Here are the core explanations
  * `restrict: 'E'`: the directive is used like a separate element
  * `templateUrl`: the path of content of the directive
  * `scope`:
-         * this defines an own scope for each directive instance, isolated from the scope of the controller actually being responsible (isolate scope)
-         * path: '@' the directive element shall have an attribute path, which value is mapped to the scope property path `(<nav-bar path="/mypath">)`
-         * shorthand notation for `path: '@path'`
- * `replace: true`: means that the directive usage in the HTML is replaced by content of the template of the
-        directive when building the final DOM
+      * this defines an own scope for each directive instance, isolated from the scope of the controller actually being responsible (isolate scope)
+      * path: '@' the directive element shall have an attribute path, which value is mapped to the scope property path `(<nav-bar path="/mypath">)` 
+      * shorthand notation for `path: '@path'`
+ * `replace: true`: means that the directive usage in the HTML is replaced by content of the template of the directive when building the final DOM
 
 Actually I wanted to set the `href` attribute in the template, but AngularJS has some security mechanism that prevents us from using something like
 
