@@ -5,7 +5,7 @@ date:   2014-11-10 21:00:00
 categories: HTML javascript AngularJS
 ---
 
-#### Introduction
+### Introduction
 [AngularJS][1] is a JavaScript framework that greatly assists in building rich client-side web applications. It pushes techniques
 well known among backend developers to the frontend, for instance dependency injection (DI) or expression binding (more precisely two-way-binding).
 
@@ -14,9 +14,9 @@ to reduce repetitive code in HTML and therefore making it more readable and impr
 
 This blog entry assumes a basic knowledge of AngularJS' controller concept and how to bind to bind a value of the controller with {{}}.
 
-#### A Nav-Bar with Bootstrap
+### A Nav-Bar with Bootstrap
 
-##### Initial Situation
+#### Initial Situation
 For a little app I currently develop, I copied the basic nav bar example from the Bootstrap example and extended it with a some behaviour:
 
 <pre brush="html">
@@ -62,7 +62,7 @@ As you can see, there is some repetition if you want to add another entry to the
 
 There is a better way: an AngularJS directive helps us to remove the repetition with both of the above mentioned problems.
 
-##### The solution
+#### The solution
 
 We create a directive:
 
@@ -108,7 +108,7 @@ myDirectives.directive('navEntry', ['$location', function ($location) {
 }]);
 </pre>
 
-<figure style="float: right; margin: 5px 0 5px 15px; text-align: center">
+<figure class="right" style="margin: 5px 0 5px 15px;">
     <img src="/img/angular/folderStructure.png" >
     <figcaption>Folder Structure</figcaption>
 </figure>
@@ -123,7 +123,7 @@ This is the template, that the directives links to:
 
 Here are the core explanations
 
- * the name of the directive is `navEntry`, which means it can be used as `&lt;nav-entry&gt;` in the HTML. This is Angulars standard way of using directives.
+ * the name of the directive is `navEntry`, which means it can be used as `<nav-entry>` in the HTML. This is Angulars standard way of using directives.
  * we depend on `$location` being injected (for checking which URI is currently active)
  * the function `link(scope, element, attrs)` is executed once for each actual usage (instance) of the directive
       * the link of our navigation entry is set with `setSafeLink()` to the value of the path attribute and the title of the title attribute of the directive instance
@@ -133,7 +133,7 @@ Here are the core explanations
  * `templateUrl`: the path of content of the directive
  * `scope`:
          * this defines an own scope for each directive instance, isolated from the scope of the controller actually being responsible (isolate scope)
-         * path: '@' the directive element shall have an attribute path, which value is mapped to the scope property path `(&lt;nav-bar path="/mypath"&gt;)`
+         * path: '@' the directive element shall have an attribute path, which value is mapped to the scope property path `(<nav-bar path="/mypath">)`
          * shorthand notation for `path: '@path'`
  * `replace: true`: means that the directive usage in the HTML is replaced by content of the template of the
         directive when building the final DOM
@@ -146,7 +146,7 @@ Actually I wanted to set the `href` attribute in the template, but AngularJS has
 
 That's why setSafeLink() adds href instead.
 
-##### The Result
+#### The Result
         
 <pre brush="html">
 &lt;li class="dropdown" ng-class="{
@@ -175,15 +175,15 @@ That's why setSafeLink() adds href instead.
 &lt;/li&gt;
 </pre>
 
-#### Conclusion
+### Conclusion
 
 This is a lot less code than in the initial setup and adding a new navigation entry is pretty easy now. We removed the duplication of the URI string, which is a
 little less error prone. Moreover, we now could the change the template in one place instead of touching all navigation entries, which makes it DRY.
 
 The idea could even be taken a little further. A potential next step is to make the whole dropdown element a separate directive, which could lift the need to
-separately list each `isActive('/...')` branch for the contained `&lt;nav-bar&gt;`.
+separately list each `isActive('/...')` branch for the contained `<nav-bar>`.
 
-##### Outlook
+#### Outlook
 Stay tuned for another example of what you can do with directives in part 2. Next time we'll have a look into how to format currency values.
 
 [1]: https://angularjs.org/

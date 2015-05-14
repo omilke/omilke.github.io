@@ -426,9 +426,14 @@ figure {
     text-align: center;
 }
 
+figure.right {
+    float: right;
+}
+
 figcaption {
     color: #999999;
 }
+
 img.aside {
     float: right;
     margin-left: 15px;
