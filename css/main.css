@@ -427,16 +427,12 @@ figure {
 }
 
 figure.right {
+	margin: 5px 0 5px 15px;
     float: right;
 }
 
 figcaption {
     color: #999999;
-}
-
-img.aside {
-    float: right;
-    margin-left: 15px;
 }
 
 #conversion-table  {

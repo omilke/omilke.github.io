@@ -13,8 +13,8 @@ As you can guess from the name, the JavaLand 4 Kids took place during to the fam
     Devoxx 4 Kids and organized alongside the rest of the conference by DOAG. It was just by chance that this event came to our attention, but we immediately agreed it would
     be good idea take part and use another opportunity to teach and inspire the kids.
 
-<figure class="right" style="margin: 5px 0 5px 15px;">
-    <img src="/img/javaland/withArunGupta.jpeg" style="width: 350px;">
+<figure class="right">
+    <img src="/img/javaland/withArunGupta.jpeg" style="width: 350px;" title="Alexander Bischof, Arun Gupta, Oliver Milke" alt="Alexander Bischof, Arun Gupta, Oliver Milke">
     <figcaption>Alexander Bischof, Arun Gupta, Oliver Milke</figcaption>
 </figure>
 

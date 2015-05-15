@@ -108,8 +108,8 @@ myDirectives.directive('navEntry', ['$location', function ($location) {
 }]);
 {% endhighlight %}
 
-<figure class="right" style="margin: 5px 0 5px 15px;">
-    <img src="/img/angular/folderStructure.png" >
+<figure class="right">
+    <img src="/img/angular/folderStructure.png" title="folder structure" alt="folder structure">
     <figcaption>Folder Structure</figcaption>
 </figure>
 

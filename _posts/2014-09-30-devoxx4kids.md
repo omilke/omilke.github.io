@@ -5,8 +5,11 @@ date:   2014-09-30 18:00:00
 categories: devoxx4kids tinkerforge
 ---
 
-<img src="/img/d4k/olli.jpeg" class="aside" style="width: 250px;" alt="staff shirt" title="my staff shirt">
-
+<figure class="right">
+	<img src="/img/d4k/olli.jpeg" style="width: 250px;" alt="staff shirt" title="my staff shirt">
+<figcaption>My staff shirt</figcaption>
+</figure>
+    
 Last weekend, on 27th September, the [devoxx4Kids][1] took place in Karlsruhe (Germany) and I was fortunate to be part of it. Togehter with my girlfriend Anne Doege, [Alexander Bischof][2] and Sascha Binger we prepared a workshop
 about "The Internet of Things" with [Tinkerforge][3]. [Sven Ruppert][6] spread the idea of a Tinkerforge session on the devoxx4Kids throughout his many talks held for various user groups and gathered the volunteers for our team.
 
