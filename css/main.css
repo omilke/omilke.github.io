@@ -426,7 +426,7 @@ figure {
     text-align: center;
 }
 
-figure.right {
+.post-content > figure.right {
 	margin: 5px 0 5px 15px;
     float: right;
 }
