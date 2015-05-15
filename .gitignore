@@ -1,2 +1,6 @@
 _site
 /nbproject/private/
+/target/
+/.settings/
+/.classpath
+/.project
