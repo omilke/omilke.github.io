@@ -43,8 +43,9 @@ For glassfish, retrying timeouts and expunging timer can be configured in the ad
 Programmatic manipulations of timers with the help of `@Resource TimerService` are also subject to transaction rollback (cf. chapter 18.2.8). Therefore registering a new
     `@Timeout` or cancelling and an existing `Timer` will also be reverted of the corresponding transaction is rolled back.
 
-You can use the projects issue tracker to ask questions or share your thoughts :)
+You can use the projects [issue tracker][4] to ask questions or share your thoughts :)
 
 [1]: https://github.com/omilke/ta-demo
 [2]: https://jcp.org/aboutJava/communityprocess/final/jsr318/index.html
 [3]: /img/glassfish/timerconfig.png
+[4]: https://github.com/omilke/ta-demo/issues
