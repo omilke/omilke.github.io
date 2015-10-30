@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Devoxx4Kids and Jugend Hack Norder"
+title:  "Devoxx4Kids and Jugend Hack Nord"
 date:   2015-10-30 17:00:00
 categories: Devoxx4Kids Tinkerforge JugendHack
 ---
@@ -8,20 +8,20 @@ categories: Devoxx4Kids Tinkerforge JugendHack
 It's been quite some since my last post, but that doesn't I have been idling ;-) 
 
 ### Jugend Hack Nord
-In contrast to Devoxx4Kids, [Jugend Hackt][1] is a whole weekend of coding. It took place in Hamburg from 2015-09-18 to 2015-09-20 and was a lot of fun. I'm a little sad I had to leave on Saturday evening already for personal reasons, but it was such an amazing event. There were so many really bright teenagers with so many great ideas to fulfill Jugend Hackt's mantra "Mit Code die Welt verbessern" (improve the world with code).
+In contrast to Devoxx4Kids, [Jugend Hackt][1] is a whole weekend of coding. It took place in Hamburg from 2015-09-18 to 2015-09-20 and was a lot of fun. I'm a little sad I had to leave on Saturday evening already for personal reasons, but even so it was such an amazing event. There were so many really bright teenagers with so many great ideas to fulfill Jugend Hackt's mantra "Mit Code die Welt verbessern" (improve the world with code).
 
-We met the designated programmers on Friday in the afternoon. The day was used to get to know eachother, collect the ideas which should be implemented on Saturday and Sunday and then there was a talk held by a Chaos Computer Club'er about [hacker ethics][2]. The teenagers participated eagerly in the discussion following the talk and even brought up new topics to discussed.
+We met the designated programmers on Friday in the afternoon. The day was used to get to know each other, collect the ideas which should be implemented on Saturday and Sunday and then there was a talk held by a Chaos Computer Club'er about [hacker ethics][2]. The teenagers participated eagerly in the discussion following the talk and even brought up new topics to be discussed.
 
-The next morning started with a plentiful breakfast and breefing among the mentors. The young programmers then chose the idea they wanted to implement from the pool of idea gathered on Friday. That was the way the teams have been formed implicitly. As mentor we had a pretty easy job to do. Here and there we pushed the teenagers into right direction and answer their questions. They were so curious and engaged to their ideas. I assisted Emmi and Sheeva in implementing [a platform to organize help where need most][3].
+The next morning started with a plentiful breakfast and breefing among the mentors. The young programmers then chose the idea they wanted to implement from the pool of idea gathered on Friday. That way the teams formed implicitly. As mentor we had a pretty easy job to do. Here and there we pushed the teenagers into right direction and answered their questions. They were so curious and engaged to their ideas. I assisted Emmi and Sheeva in implementing [a platform to organize help where needed most][3].
 
-There was lunch and supper for the kids, but they would have preferred to continue working instead of profanely eating and making a break. I left at around 10pm and there was no sign of exhaustion. The teenagers earned my respect especially for the simple way of thinking in solving problems. It was quite inspiring.
+There was lunch and supper for the kids, but they would have preferred to continue working instead of profanely eating and making a break. I left at around 10pm and there still wasn't any sign of exhaustion. The teenagers earned my respect especially for the simple way of thinking in solving problems. It was quite inspiring.
 
-The next day offered a little more time to finish the projects and there was the award ceremony, though I did not myself witness it. You can find [a German summary on the blog of Jugend Hackt][4] along with some pictures.
+The next day offered a little more time to finish the projects and there was the award ceremony, though I did not witness it myself. You can find [a German summary on the blog of Jugend Hackt][4] along with some pictures.
 
 ### Devoxx4Kids in Hamburg
 
 <figure class="right">
-    <img src="/img/d4k/tf-in-woodstock.jpeg" style="width: 350px;" title="Tinkerforge in Woodstock" alt="Tinkerforge in Woodstock">
+    <img src="/img/d4k/tf-in-woodstock.jpg" style="width: 200px;" title="Tinkerforge in Woodstock" alt="Tinkerforge in Woodstock">
     <figcaption>Tinkerforge in Woodstock</figcaption>
 </figure>
 
@@ -31,9 +31,9 @@ There also is a German summary of this Devoxx4Kids available on the [Holisticon 
 
 ### Devoxx 4 Kids in Karlsruhe
 
-Two weeks ago, on 2015-10-17, the third Devoxx4Kids took place in Karlsruhe, again organized by [synyx][7]. We have prepared a new workshop with Tinkerforge elements. This time the kids were able to build their own battery - with potatoes! The kids learned about current and voltage, using a multimeter to measure the voltage created with their batteries and set up eletric circuits themselves. We prepared a tiny JavaFX programm to visualize the measured current and voltage and to program the relay in order to turn on and off the LEDs and a fan. The kids also found out that sometimes things don't work as expected, especially with cabling the potatoes. Two boys also spotted a bug in our software a fully diagnosed it so it was trivial for us to the fix it. Good work, guys!
+Two weeks ago, on 2015-10-17, the third Devoxx4Kids took place in Karlsruhe, again organized by [synyx][7]. We have prepared a new workshop with Tinkerforge elements. This time the kids were able to build their own battery - with potatoes! The kids learned about current and voltage, using a multimeter to measure the voltage created with their batteries and set up eletric circuits themselves. We prepared a small [JavaFX programm][13] to visualize the measured current and voltage and to program the relay in order to turn on and off the LEDs and a fan. The kids also found out that sometimes things don't work as expected, especially with cabling the potatoes. Two boys also spotted a bug in our software a fully diagnosed it so it was trivial for us to the fix it. Good work, guys!
 
-Normally I used to hold the Tinkerforge workshop with Alex, but this time a good friend of him, Marco, volunteered to created a new workshop. He did most of the preparation work, especially with all the electric parts. Thank you Marco, without you this workshop would not have been possible.
+Normally I used to hold the Tinkerforge workshop with Alex, but this time a good friend of him, Marco, volunteered to create a new workshop. He did most of the preparation work, especially with all the electric parts. Thank you Marco, without you this workshop would not have been possible.
 
 I also want to thank [SiteOS][8] for sponsoring the Tinkerforge parts for the kids to use. Without this sponsoring our workshop could not have taken place. Thanks!
 
@@ -51,8 +51,9 @@ The material prepared for Devoxx4Kids and can be found on [my site][9]. There al
 [5]: https://www.holisticon.de/
 [6]: https://www.holisticon.de/2015/06/devoxx4kids-zum-ersten-mal-hamburg/
 [7]: http://www.synyx.de/
-[8]: http://www.siteos.de/
+[8]: http://www.siteos.de/unternehmen/aktuelles/news_0008.html
 [9]: /devoxx4kids/
 [10]: https://github.com/devoxx4kids/materials
 [11]: https://github.com/Devoxx4KidsDE
 [12]: https://blog.synyx.de/2015/10/dritte-devoxx4kids-neue-location-neue-workshops-altbekannter-spass/
+[13]: https://github.com/omilke/tinkerforge-strom-ui
