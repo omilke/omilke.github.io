@@ -21,7 +21,7 @@ The next day offered a little more time to finish the projects and there was the
 ### Devoxx4Kids in Hamburg
 
 <figure class="right">
-    <img src="/img/d4k/tf-in-woodstock.jpg" style="width: 200px;" title="Tinkerforge in Woodstock" alt="Tinkerforge in Woodstock">
+    <img src="/img/d4k/tf-in-woodstock.jpg" style="width: 250px;" title="Tinkerforge in Woodstock" alt="Tinkerforge in Woodstock">
     <figcaption>Tinkerforge in Woodstock</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ I also want to thank [SiteOS][8] for sponsoring the Tinkerforge parts for the ki
 The mentors had an "afterwork" event sponsored by synyx, as well. After all, having a retrospective view on the event is an important factor of success ;-) You can read a german summary on the [synyx blog][12].
 
 ### Devoxx 4 Kids material
-The material prepared for Devoxx4Kids and can be found on [my site][9]. There also is an official [Devoxx4Kids repository][10] and a [Devoxx4Kids Germany collection] on github.
+The material prepared for Devoxx4Kids and can be found on [my site][9]. There also is an official [Devoxx4Kids repository][10] and a [Devoxx4Kids Germany collection][11] on github.
 
 
 
