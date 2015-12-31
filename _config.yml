@@ -9,4 +9,4 @@ github_username:  omilke
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /:title
