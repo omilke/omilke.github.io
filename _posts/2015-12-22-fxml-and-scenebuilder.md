@@ -149,7 +149,7 @@ You can find it under *View* -> *Show Sample Controller Skeleton*.
 
 ### Using custom controls
 
-When using custom controls like [FontawesomeFX](http://oliver-milke.de/fontawesome-fx/), you need to import them into Scene Builder.
+When using custom controls like [FontawesomeFX](http://oliver-milke.de/fontawesome-fx.html), you need to import them into Scene Builder.
 Refer to the screenshot below to locate this slightly hidden feature. You can just point to the file of your *.m2* directory.
 
 However, you might need to re-import the file in Scene Builder when upgrading the version in your *pom.xml*.
