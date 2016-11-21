@@ -426,6 +426,11 @@ figure {
     text-align: center;
 }
 
+figure > pre > code {
+    text-align: left;
+}
+
+
 .post-content > figure.right {
 	margin: 5px 0 5px 15px;
     float: right;
