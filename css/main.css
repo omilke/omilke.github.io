@@ -426,7 +426,7 @@ figure {
     text-align: center;
 }
 
-figure#highlight pre {
+figure.highlight pre {
     text-align: left;
 }
 
