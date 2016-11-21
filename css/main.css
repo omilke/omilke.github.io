@@ -426,7 +426,7 @@ figure {
     text-align: center;
 }
 
-figure > pre > code {
+figure#highlight pre {
     text-align: left;
 }
 
