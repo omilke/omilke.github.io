@@ -4,3 +4,6 @@ _site
 /.settings/
 /.classpath
 /.project
+
+.idea/
+blog.iml
