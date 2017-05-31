@@ -15,7 +15,7 @@ necessarily want to ask when just joining a company. It continued with an introd
 common appointments with HR and IT administration. It just felt well considered and prepared accordingly. 
 
 <figure class="right">
-    <img src="/img/trio-tools.jpg" style="width: 150px;" title="My tool belt, with coffee injector" alt="My tool belt, with coffee injector">
+    <img src="/img/trio-tools.jpg" style="width: 250px;" title="My tool belt, with coffee injector" alt="My tool belt, with coffee injector">
     <figcaption>My tool belt, with coffee injector</figcaption>
 </figure>
 
