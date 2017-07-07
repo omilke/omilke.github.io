@@ -10,3 +10,6 @@ github_username:  omilke
 # Build settings
 markdown: kramdown
 permalink: /:title.html
+
+sass:
+    style: compressed
