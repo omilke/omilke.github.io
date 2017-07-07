@@ -6,11 +6,14 @@ categories: practical, tools
 tags: [Windows, Utilities]
 description: Windows default clipboard is essential, though still annoyingly restrictive. Ditto ultimately improves the clipboards utility character.
 author: olli
+excerpt_separator: <!--more-->
 ---
 
 Have you ever imagined to use your computer with a non-functional clipboard a.k.a. copy and paste? This would definitely be painful.
 
 However, even though the basic windows clipboard is essential, the single element clipboard is still annoyingly restrictive. In his inspiring book _"The Productive Programmer"_ Neal Ford recommended to use a clipboard enhancing tool. This thought especially caught my attention and consequently I looked into finding a suitable tool for Windows.
+
+<!--more-->
 
 ## Ditto Clipboard Manager
 I've been using [Ditto Clipboard Manager](http://ditto-cp.sourceforge.net/) for some time now, and now copying this is simply amazing.

@@ -5,11 +5,14 @@ date:   2015-12-03 21:00:00
 categories: introduction
 tags: [links, introduction]
 description: Introducing my new blog about delving into the realm of JavaFX and prodiving some links to helpful material on the way towards mastering JavaFX.
+excerpt_separator: <!--more-->
 ---
 
-## Hello, JavaFX World
+### Hello, JavaFX World
 
 I'm just starting to learn JavaFX and I want to share my insights on my path towards mastering JavaFX. I hope that there will be a time when all the try-out-sessions ands mistakes I do now will eventually be useful someone else :) 
+
+<!--more-->
 
 ## Getting started - but with what resources?
 ### JavaFX Ensemble

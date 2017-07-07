@@ -6,11 +6,14 @@ categories: introduction
 tags: [UI, Android, JavaFX, IntelliJ, introduction]
 description: This article is a short summary on how to setup Gluon Mobile, which I learned at Jugend Hackt Hamburg 2017.
 author: olli
+excerpt_separator: <!--more-->
 ---
 
 Last weekend was "Jugend Hackt Hamburg 2017" and even though my task was to mentor the youngsters, I learned how to setup Gluon Mobile from working with a very bright and motivated participant. He came to me because he knew I like working with JavaFX and he heard about that framework, that enables developing android application with JavaFX. We made our way together to getting started with Gluon Mobile on Windows.
 
 By the way, I wrote a [summary about Jugend Hackt Hamburg on my company's blog](https://www.triology.de/blog/hacker-wochenende-das-war-jugend-hackt-nord), which is definitely worth a read.
+
+<!--more-->
 
 ## About Gluon Mobile
 

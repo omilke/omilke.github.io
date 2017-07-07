@@ -6,6 +6,7 @@ categories: info, review
 tags: [review]
 description: This article briefly my first experience at Triology.
 author: olli
+excerpt_separator: <!--more-->
 ---
 
 I have [just recently reported about my new job](/about-my-2016.html) and, to be honest, so far, my time at Triology has even exceeded my expectations.
@@ -13,6 +14,8 @@ I have [just recently reported about my new job](/about-my-2016.html) and, to be
 My onboarding started with a nice small email sent by the head of our HR, providing answers to questions you might not 
 necessarily want to ask when just joining a company. It continued with an introduction to all the colleagues and some 
 common appointments with HR and IT administration. It just felt well considered and prepared accordingly. 
+
+<!--more-->
 
 <figure class="right">
     <img src="/img/trio-tools.jpg" style="width: 250px;" title="My tool belt, with coffee injector" alt="My tool belt, with coffee injector">

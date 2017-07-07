@@ -5,6 +5,7 @@ date:   2015-12-13 19:00:00
 categories: introduction
 tags: [UI, Window, introduction]
 description: When building JavaFX applications you will sooner or later need to create new windows. This articles provides you with all the details of creating a window and explains the concept of Stages and Scenes.
+excerpt_separator: <!--more-->
 ---
 
 When creating a JavaFX [application](http://docs.oracle.com/javase/8/javafx/api/javafx/application/Application.html), you need at least following parts
@@ -12,9 +13,13 @@ When creating a JavaFX [application](http://docs.oracle.com/javase/8/javafx/api/
   - a main [stage](http://docs.oracle.com/javase/8/javafx/api/javafx/stage/Stage.html) with a [scene](http://docs.oracle.com/javase/8/javafx/api/javafx/scene/Scene.html)
   - content to be displayed
 
+
 This is usually what is provided either by the hello-world-sample or the skeleton created by your IDE and typically looks the like in this in image.
 
+<!--more-->
+
 ![basic explanation of a JavaFX application]({{site.baseurl}}/img/fx/hello-javafx.png "Anatomy of a JavaFX application")
+
 
 In this case, the VBox being inserted into the Scene and all controls within that VBox (the actual content) are said to be the *scenegraph*.
 

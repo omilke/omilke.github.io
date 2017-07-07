@@ -5,7 +5,7 @@ date:   2014-08-14 13:30:30
 categories: java jodatime jdk8 glassfish
 ---
 
-#### Thanks Joda!
+### Thanks Joda!
 Joda-Time is great. Seriously. It has been a pleasure to work with from the beginning. It was amazing how valuable Jodas LocalDates are when you
 simply need exactly that: a date without any consideration of time zones.
 
@@ -14,12 +14,12 @@ I even wrote a JPA 2.1 `AttributeConverter<LocalDate, Integer>` in order to use 
 I cannot precisely recall what went wrong when deploying JodaTime as maven compile time dependency. In fact, I was rudely reminded of the need to put
 JodaTime into the library folder of my GlassFish when I set up my dev environment on a new system. It simply didn't work out of the box.
 
-#### Time to leave
+### Time to leave
 I decided that this incident was a good reason to switch from JodaTime to the new JDK8 Date Time API (JSR-310). With the JDK8 API I would not be forced to deploy a library into the common-classloader of GlassFish, which makes deploying my application easier. Always a good thing.
 
 Knowing that Stephen Colebourne (author of JodaTime) is also part of the spec lead team for JSR-310, I assumed there might not be too many differences between JodaTime and JSR-310.
 
-#### Stepping Over
+### Stepping Over
 Back then I found no guide for switching, therefore I tried myself - which wasn't any challenge anyway. But maybe this post helps other people in the same situation.
 
 These are the steps I took to switching to JSR-310
