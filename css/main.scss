@@ -466,6 +466,7 @@ article.post-content > p {
     text-align: justify;
 }
 
+/* main view styles */
 ul.posts li {
 
     margin-bottom: 20px;
@@ -488,6 +489,7 @@ ul.posts li {
         }
 
         h2, h3 {
+          /* remove headlines from excerpt */
             display: none;
         }
 
