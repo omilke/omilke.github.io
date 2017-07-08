@@ -23,75 +23,37 @@ $aqua: #7FDBFF;
 
 html, body { height: 100%; }
 
+
+
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.25;
-  font-weight: normal;
-  background-color: #FFF;
-  color: $navy;
+  color: lighten($navy, 15);
 }
+
+
 
 h1, h2, h3, h4, h5, h6 { 
   font-weight: bold; 
   letter-spacing: -1px;
   margin: 0 0 30px;
-  color: lighten($navy, 15);
 }
 
 a         { color: $blue; text-decoration: none; }
 a:hover   { color: $aqua; text-decoration: underline; }
 a:visited { color: $blue; }
 
-/* Utility */
-
-.wrap:before,
-.wrap:after { content:""; display:table; }
-.wrap:after { clear: both; }
-.wrap {
-  max-width: 800px;
-  padding: 0 30px;
-  margin: 0 auto;
-  zoom: 1;
-}
-
-
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
 /* Site header */
 
-.site-header {
-  border-top: 5px solid $gray;
-  border-bottom: 1px solid $gray;
-  min-height: 56px;
+.navbar.navbar-default {
+  border-bottom: 2px solid;
+  border-color: $gray;
   background-color: $navy;
-}
 
-.site-title,
-.site-title:hover,
-.site-title:visited {
-  display: block;
-  color: $silver;
-  font-size: 26px;
-  letter-spacing: -1px;
-  float: left;
-  line-height: 56px;
-  position: relative;
-  z-index: 1;
-}
-
-.site-nav {
-  float: right;
-  line-height: 56px;
-}
-
-.site-nav .menu-icon { display: none; }
-
-.site-nav .page-link {
-  margin-left: 20px;
-  color: $silver;
-  letter-spacing: -.5px;
+  a {
+    color: $silver !important;
+  }
 }
 
 /* Site footer */
