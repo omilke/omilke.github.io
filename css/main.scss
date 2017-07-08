@@ -9,7 +9,7 @@ $gray: #aaa;
 $blue: #0074D9;
 $aqua: #7FDBFF;
 
-$footer-size: 150px;
+$footer-size: 175px;
 
 @import
         "bootstrap.min"        
@@ -28,6 +28,10 @@ body {
     
     /* Margin bottom by footer height */
   margin-bottom: $footer-size;
+
+  div.container > div {
+    margin-bottom: 25px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 { 
@@ -61,7 +65,7 @@ footer.footer {
   border-top: 1px solid $gray;
   background-color: $navy;
   color: $silver !important;
-  padding: 30px 0;
+  padding: 20px 0;
 
   /* make it sticky to the bottom */
   position: absolute;
@@ -275,5 +279,6 @@ div.posts div {
             margin: 5px 0 5px 15px;
             float: right;
         }
+
     }
 }
