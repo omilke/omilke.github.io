@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Devoxx4Kids and Jugend Hack Nord"
+title:  "Devoxx4Kids and Jugend Hackt Nord"
 date:   2015-10-30 17:00:00
-categories: Devoxx4Kids Tinkerforge JugendHack
+categories: Devoxx4Kids Tinkerforge JugendHackt
 ---
 
 It's been quite some since my last post, but that doesn't I have been idling ;-) 
 
-### Jugend Hack Nord
+### Jugend Hackt Nord
 In contrast to Devoxx4Kids, [Jugend Hackt][1] is a whole weekend of coding. It took place in Hamburg from 2015-09-18 to 2015-09-20 and was a lot of fun. I'm a little sad I had to leave on Saturday evening already for personal reasons, but even so it was such an amazing event. There were so many really bright teenagers with so many great ideas to fulfill Jugend Hackt's mantra "Mit Code die Welt verbessern" (improve the world with code).
 
 We met the designated programmers on Friday in the afternoon. The day was used to get to know each other, collect the ideas which should be implemented on Saturday and Sunday and then there was a talk held by a Chaos Computer Club'er about [hacker ethics][2]. The teenagers participated eagerly in the discussion following the talk and even brought up new topics to be discussed.
