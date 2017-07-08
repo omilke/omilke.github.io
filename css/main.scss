@@ -217,6 +217,9 @@ p.meta {
 
 figure {
     text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 figure.highlight pre {
@@ -224,7 +227,7 @@ figure.highlight pre {
 }
 
 .post-content > figure.right {
-	margin: 5px 0 5px 15px;
+	margin: 10px 0 10px 15px;
   float: right;
 }
 
@@ -249,6 +252,13 @@ p.meta {
 
   p {
     text-align: justify;
+
+    img {
+      /* reproduce img-responsive for markdown */
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
   }
   
   p, figure.highlight, blockquote, div.highlighter-rouge {
