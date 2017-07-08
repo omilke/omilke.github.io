@@ -1,51 +1,52 @@
-<footer class="site-footer">
+<footer class="footer">
 
-    <div class="wrap">
+    <div class="container">
+        <div class="col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
 
-        <div class="footer-col-1 column">
-            <ul>
-                <li>{{ site.title }}</li>
-                <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            </ul>
-        </div>
+            <div class="col-xs-6 col-md-4">
+                <div>
+                    <div>{{ site.title }}</div>
+                    <div><a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+                </div>
+            </div>
 
-        <div class="footer-col-2 column">
-            <ul>
-                {% if site.twitter_username %}
-                <li>
-                    <a href="https://twitter.com/{{ site.twitter_username }}">
+            <div class="col-xs-6 col-md-4">
+                <ul>
+                    {% if site.twitter_username %}
+                    <li>
+                        <a href="https://twitter.com/{{ site.twitter_username }}">
                         <span class="icon"><i class="fa fa-twitter"></i></span>
                         <span class="username">{{ site.twitter_username }}</span>
                     </a>
-                </li>
-                {% endif %}
-                {% if site.github_username %}
-                <li>
-                    <a href="https://github.com/{{ site.github_username }}">
+                    </li>
+                    {% endif %} {% if site.github_username %}
+                    <li>
+                        <a href="https://github.com/{{ site.github_username }}">
                         <span class="icon"><i class="fa fa-github"></i></span>
                         <span class="username">{{ site.github_username }}</span>
                     </a>
-                </li>
-                {% endif %}
-                <li>
-                    <a href="https://bitbucket.org/omilke"> 
+                    </li>
+                    {% endif %}
+                    <li>
+                        <a href="https://bitbucket.org/omilke"> 
                         <span class="icon"><i class="fa fa-bitbucket"></i></span>
                         <span class="username">omilke</span>
                     </a>
-                </li>
-                <li>
-                    <a href="http://stackoverflow.com/users/2108919/omilke"> 
+                    </li>
+                    <li>
+                        <a href="http://stackoverflow.com/users/2108919/omilke"> 
                         <span class="icon"><i class="fa fa-stack-overflow"></i></span>
                         <span class="username">omilke</span>
                     </a>
-                </li>
-            </ul>
-        </div>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="footer-col-3 column">
-            <p class="text">{{ site.description }}</p>
-        </div>
+            <div class="col-xs-6 col-md-4">
+                <p class="text">{{ site.description }}</p>
+            </div>
 
+        </div>
     </div>
 
 </footer>
