@@ -4,7 +4,6 @@
 @charset "utf-8";
 
 $navy: #001f3f;
-$olive: #2ECC40;
 $silver: #ddd;
 $gray: #aaa;
 $blue: #0074D9;
@@ -37,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold; 
   letter-spacing: -1px;
   margin: 0 0 30px;
+  color: lighten($navy, 15);
 }
 
 a         { color: $blue; text-decoration: none; }
@@ -72,7 +72,7 @@ a:visited { color: $blue; }
 .site-title:hover,
 .site-title:visited {
   display: block;
-  color: $aqua;
+  color: $silver;
   font-size: 26px;
   letter-spacing: -1px;
   float: left;
@@ -90,7 +90,7 @@ a:visited { color: $blue; }
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: $aqua;
+  color: $silver;
   letter-spacing: -.5px;
 }
 
@@ -435,6 +435,10 @@ div.page-content  div.post > * {
 
 /* main view styles */
 ul.posts li {
+
+  a.post-link {
+    color: lighten($navy, 15);
+  }
 
     margin-bottom: 20px;
 
