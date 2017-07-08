@@ -10,8 +10,7 @@ $blue: #0074D9;
 $aqua: #7FDBFF;
 
 @import
-        "bootstrap.min"
-        
+        "bootstrap.min"        
 ;
 
 /* Base */
@@ -154,9 +153,8 @@ a:visited { color: $blue; }
 /* Page Content styles */
 /* ----------------------------------------------------------*/
 
-.page-content {
-  padding: 30px 0;
-  background-color: #fff;
+div.container {
+  padding-top: 30px;
 }
 
 
@@ -422,7 +420,7 @@ figcaption {
     border: 1px solid black;
 }
 
-div.page-content  div.post > * {
+div.container  div > * {
 
   p.meta {
     margin-left: 0;
