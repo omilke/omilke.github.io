@@ -16,13 +16,12 @@ However, even though the basic windows clipboard is essential, the single elemen
 <!--more-->
 
 ## Ditto Clipboard Manager
-I've been using [Ditto Clipboard Manager](http://ditto-cp.sourceforge.net/) for some time now, and now copying this is simply amazing.
 
 <figure class="right">
     <img src="/img/ditto/ditto-history.png" style="width: 250px;" title="Ditto Clipboard History pop-up" alt="Ditto Clipboard History pop-up">
     <figcaption>Ditto Clipboard History pop-up</figcaption>
 </figure>
-
+I've been using [Ditto Clipboard Manager](http://ditto-cp.sourceforge.net/) for some time now, and now copying this is simply amazing.
 
 Ditto basically keeps a history of what was copied. *STRG + Ö* on German keyboard layout opens a pop-up showing this history as you can see in the image.
 
@@ -32,12 +31,12 @@ Additionally you can also filter the history, which helps in finding older entri
 
 You can configure the expiration time of clipboard history elements and a lot more details. Just have a look at the settings, although the default settings seem sensible to me.
 
+The history of elements mainly enables batch copying with batch pasting, which eliminates the need to switch between windows when transferring multiple elements, saving you a lot of time.
+
 <figure class="right">
     <img src="/img/ditto/ditto-config.png" style="width: 450px;" title="Ditto Settings" alt="Ditto Settings">
     <figcaption>Ditto Settings</figcaption>
 </figure>
-
-The history of elements mainly enables batch copying with batch pasting, which eliminates the need to switch between windows when transferring multiple elements, saving you a lot of time.
 
 ## Caveats
 
