@@ -26,9 +26,12 @@ html {
 
 body {
   color: lighten($navy, 15);
-    
+
     /* Margin bottom by footer height */
   margin-bottom: $footer-size;
+
+  /* prevent content from shaking left to right, when in a transition scrollbar would be toggled on / off */
+  overflow-y: scroll;
 
   div.container > div {
     margin-bottom: 25px;
