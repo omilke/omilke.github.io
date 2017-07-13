@@ -2,10 +2,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
     <meta name="author" content="Oliver Milke">
-    <meta name="keywords" content="Oliver Milke,Java,Java EE,Angular,AngularJS,Build,Tool">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="Oliver Milke,Java,Java EE,Build,Tool">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@OliverMilke">
+    <meta property="og:type" content="website">
+    
+    {% if page.twitter_title %}
+    <meta property="og:title" content="{{ page.twitter_title }}">
+    {% elsif page.title %}
+    <meta property="og:title" content="{{ page.title | truncate: 70 }}">
+    {% else %}
+    <meta property="og:title" content="{{ site.title }}">
+    {% endif %}
+
+    {% if page.twitter_description %}
+    <meta property="og:description" content="{{ page.twitter_description }}">
+    {% elsif page.excerpt %}
+    <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 200 }}">
+    {% else %}
+    <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
+    
+    {% if page.image %}
+    <meta property="og:image" content="{{ page.image | prepend: site.baseurl  | prepend: site.url }}">
+    {% else %}
+    <meta property="og:image" content="{{site.image}}">
+    {% endif %}
+
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
