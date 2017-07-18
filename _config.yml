@@ -1,7 +1,7 @@
 # Site settings
 title: Ollis Blog
 email: dev@oliver-milke.de
-description: "My Blog about Java and whatever comes to mind."
+description: "My Blog about Java and whatever is on my radar."
 baseurl: ""
 url: "http://oliver-milke.de"
 twitter_username: OliverMilke
