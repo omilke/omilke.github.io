@@ -5,6 +5,8 @@ date:   2015-12-06 21:00:00
 categories: introduction
 tags: [icons, UI]
 description: Coming from web-development, you'll most likely know iconic fonts as for example Bootstrap's Glyphicons or Fontawesome. This articles demonstrates how include Fontawesome in JavaFX applications.
+comments: true
+disqus_id: 11
 ---
 
 Coming from web-development, you'll most likely know iconic fonts as for example Bootstrap's Glyphicons or Fontawesome and there's even more of them. They help a lot in creating appealing UIs. Naturally, I thought it'd be helpful if I could use them in JavaFX as well, after all they're just fonts. Changing the font of a control isn't hard and reading a custom font from META-INF is not rocket science either, but still...

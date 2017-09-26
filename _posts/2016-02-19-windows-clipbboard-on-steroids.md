@@ -7,6 +7,8 @@ tags: [Windows, Utilities]
 description: Windows default clipboard is essential, though still annoyingly restrictive. Ditto ultimately improves the clipboards utility character.
 author: olli
 excerpt_separator: <!--more-->
+comments: true
+disqus_id: 14
 ---
 
 Have you ever imagined to use your computer with a non-functional clipboard a.k.a. copy and paste? This would definitely be painful.

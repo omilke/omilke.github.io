@@ -7,6 +7,8 @@ tags: [Maven, IntelliJ, Windows, Docker]
 description: This article is a describes setting up oh-my-zsh in WSL and re-use existing windows configurations.
 author: olli
 excerpt_separator: <!--more-->
+comments: true
+disqus_id: 18
 ---
 
 Lately I have been working a team, in which my fellow devs mostly use Linux while I decided to stay with Windows. However, whenever I can take a look on their shells, during pair programming for instance, I get a little envious of them, since they use oh-my-zsh in different flavors. 

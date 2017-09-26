@@ -5,6 +5,8 @@ date:   2015-12-22 11:00:00
 categories: introduction
 tags: [UI, FXML, Scene Builder, introduction]
 description: This article introduces the essential features of FXML and explains the basic usage of the Scene Builder to easily design even complex views.
+comments: true
+disqus_id: 13
 ---
 
 In the previous article I explained Stages and Scenes of JavaFX applications. However, when it to came to filling the stage with life 

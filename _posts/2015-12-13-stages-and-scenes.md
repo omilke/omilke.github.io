@@ -6,6 +6,8 @@ categories: introduction
 tags: [UI, Window, introduction]
 description: When building JavaFX applications you will sooner or later need to create new windows. This articles provides you with all the details of creating a window and explains the concept of Stages and Scenes.
 excerpt_separator: <!--more-->
+comments: true
+disqus_id: 12
 ---
 
 When creating a JavaFX [application](http://docs.oracle.com/javase/8/javafx/api/javafx/application/Application.html), you need at least following parts

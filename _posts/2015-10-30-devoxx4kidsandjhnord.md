@@ -3,6 +3,8 @@ layout: post
 title:  "Devoxx4Kids and Jugend Hackt Nord"
 date:   2015-10-30 17:00:00
 categories: Devoxx4Kids Tinkerforge JugendHackt
+comments: true
+disqus_id: 8
 ---
 
 It's been quite some since my last post, but that doesn't I have been idling ;-) 

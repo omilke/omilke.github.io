@@ -3,6 +3,8 @@ layout: post
 title:  "Global Day of Code Retreat"
 date:   2015-11-17 21:00:00
 categories: java code-retreat
+comments: true
+disqus_id: 9
 ---
 
 ### Global Day of Code Retreat

@@ -7,6 +7,8 @@ tags: [review]
 description: This article briefly my first experience at Triology.
 author: olli
 excerpt_separator: <!--more-->
+comments: true
+disqus_id: 16
 ---
 
 I have [just recently reported about my new job](/about-my-2016.html) and, to be honest, so far, my time at Triology has even exceeded my expectations.

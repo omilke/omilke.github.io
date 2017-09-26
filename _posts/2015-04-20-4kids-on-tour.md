@@ -3,6 +3,8 @@ layout: post
 title:  "4 Kids: Devoxx and JavaLand"
 date:   2015-04-20 19:30:00
 categories: Devoxx4Kids JavaLand4Kids Tinkerforge
+comments: true
+disqus_id: 7
 ---
 
  The last month was amazing. We (that is [Alexander Bischof][1] and me) have been on tour for JavaLand 4 Kids and for Devoxx 4 Kids. These kids are awesome and every single event

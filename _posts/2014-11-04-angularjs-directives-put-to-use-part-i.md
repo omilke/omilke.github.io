@@ -3,6 +3,8 @@ layout: post
 title:  "AngularJS directives put to use - Part 1"
 date:   2014-11-10 21:00:00
 categories: HTML javascript AngularJS
+comments: true
+disqus_id: 4
 ---
 
 ### Introduction

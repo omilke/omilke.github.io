@@ -3,6 +3,8 @@ layout: post
 title:  "EJB Transaction Rollback and Timers"
 date:   2015-02-08 08:30:00
 categories: Java JavaEE EJB Glassfish
+comments: true
+disqus_id: 6
 ---
 
 ### Introduction

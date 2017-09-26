@@ -6,6 +6,8 @@ categories: introduction
 tags: [links, introduction]
 description: Introducing my new blog about delving into the realm of JavaFX and prodiving some links to helpful material on the way towards mastering JavaFX.
 excerpt_separator: <!--more-->
+comments: true
+disqus_id: 10
 ---
 
 ### Hello, JavaFX World

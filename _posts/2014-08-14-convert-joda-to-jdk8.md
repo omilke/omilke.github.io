@@ -3,6 +3,8 @@ layout: post
 title:  "Switching from Joda Time to JDK8 Date Time API"
 date:   2014-08-14 13:30:30
 categories: java jodatime jdk8 glassfish
+comments: true
+disqus_id: 2
 ---
 
 ### Thanks Joda!

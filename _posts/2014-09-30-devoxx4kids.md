@@ -3,6 +3,8 @@ layout: post
 title:  "Devoxx4Kids in Karlsruhe"
 date:   2014-09-30 18:00:00
 categories: devoxx4kids tinkerforge
+comments: true
+disqus_id: 3
 ---
 
 <figure class="right">
