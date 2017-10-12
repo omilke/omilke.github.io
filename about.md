@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-<img src="{{ '/img/olli.jpg' | prepend: site.baseurl }}" class="img-circle center-block" />
+<img src="{{ '/img/olli.jpg' | prepend: site.baseurl }}" class="img-circle img-thumbnail center-block" />
 
 
 I'm Olli and I have been passionate about coding for over a decade. My focus has been on Java backend projects, but I also enjoy trying out new and different stuff.
