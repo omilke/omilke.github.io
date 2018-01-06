@@ -14,7 +14,7 @@ Oliver Milke<br>
 </p>
 <p>
 <strong>Kontakt:</strong> <br>
-E-Mail: <a href='mailto:dev@oliver-milke.de'>dev@oliver-milke.de</a></br></p>
+E-Mail: <a href='mailto:dev@oliver-milke.de'>dev@oliver-milke.de</a></p>
 <p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br>
 Oliver Milke <br> 
 Münstedter Straße 18<br> 
