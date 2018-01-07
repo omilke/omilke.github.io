@@ -7,7 +7,7 @@
 
         <nav class="navbar navbar-default">
             <div class="container">
-                <div class="col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+                <div class="col-md-12 col-lg-12">
 
                     {% include header.html %}
 
@@ -16,16 +16,47 @@
         </nav>
 
         <div class="container">
-            <div class="col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+            <div class="col-md-8 col-lg-8 ">
 
                 {{ content }}
 
             </div>
+
+            <div class="col-md-offset-1 col-md-3 col-lg-offset-1 col-lg-3">
+                <h3>Events</h3>
+                <div>
+                    <p>...where you can find me.</p>
+                </div>
+                <div class="event-list">
+                    {% for event in site.data.events limit:10 %}
+                    <div>
+                        <h4>
+                            {{ event.event }}
+                            <p class="text-muted pull-right">{{ event.date }}</p>
+                        </h4>
+
+                        <p>
+                            {% if event.link %}
+
+                            <a href="{{ event.link }}" target="_blank">{{ event.title }}</a>
+
+                            {% else %}
+
+                            {{ event.title }}
+
+                            {% endif %}
+                        </p>
+
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+
         </div>
 
         <footer class="footer">
             <div class="container">
-                <div class="col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+                <div class="col-md-12 col-lg-12">
 
                     {% include footer.html %}
 

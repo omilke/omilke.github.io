@@ -1,0 +1,114 @@
+- event: Software Engineering Lecture
+  title: Domain Driven Design
+  date: 2018-04-00
+
+- event: JavaLand
+  title: Crypto 101
+  date: 2018-03-13
+  link: https://programm.javaland.eu/2018/#/scheduledEvent/549091
+
+- event: JavaLand
+  title: 4 Kids - Nachwuchsförderung unter der Lupe
+  date: 2018-03-13
+  link: https://programm.javaland.eu/2018/#/scheduledEvent/551142
+
+- event: JavaLand 4 Kids
+  title: Advanced Workshop
+  date: 2018-03-12
+
+- event: Kids4IT Braunschweig
+  title: Jumping Sumo Workshop
+  date: 2018-02-10
+  link: https://www.meetup.com/de-DE/Kids4IT/events/246475751/
+
+- event: Devoxx 4 Kids Hamburg
+  title: Advanced Workshop
+  date: 2017-11-25
+
+- event: HackCamp 2018
+  title: Domain Driven Design
+  date: 2017-11-18
+
+- event: HackCamp 2018
+  title: Code Retreat
+  date: 2017-11-18
+
+- event: HackTalk Braunschweig
+  title: Cloudogu EcoSystem
+  date: 2017-10-24
+
+- event: Software Engineering Lecture
+  title: Crypto 101
+  date: 2017-10-24
+  link: https://speakerdeck.com/omilke/crypto-101
+
+- event: Java Forum Nord
+  title: Crypto 101
+  date: 2017-09-12
+  link: http://javaforumnord.de/site/2017/page/Talk-76
+
+- event: JUG Ostfalen
+  title: Stammtisch
+  date: 2017-07-27
+  link: http://www.jug-ostfalen.de/event/2017/07/27/stammtisch.html
+
+- event: Jugend Hackt Nord
+  title: Mentor Mentor
+  date: 2017-06-09
+
+- event: Kids4IT Hamburg
+  title: Jumping Sumo Workshop
+  date: 2017-06-09
+  link: https://www.meetup.com/de-DE/Kids4IT/events/239473780/
+
+- event: JavaLand 4 Kids
+  title: Jumping Sumo Workshop
+  date: 2017-03-27
+  link: https://github.com/Devoxx4KidsDE/workshop-jumping-sumo-4-scratch
+
+- event: Java Forum Nord
+  title: Staff
+  date: 2016-10-20
+
+- event: Devoxx4Kids Karlsruhe
+  title: Jumping Sumo Workshop
+  date: 2016-10-15
+  link: https://github.com/Devoxx4KidsDE/workshop-jumping-sumo-4-scratch
+
+- event: Jugend Hackt Nord
+  title: Mentor
+  date: 2016-06-11
+
+- event: JavaLand 4 Kids
+  title: Jumping Sumo Workshop
+  date: 2016-04-07
+  link: https://github.com/Devoxx4KidsDE/workshop-jumping-sumo-4-scratch
+
+- event: Devoxx4Kids Karlsruhe
+  title: Tinkerforge Workshop
+  date: 2015-10-17
+  link: https://github.com/Devoxx4KidsDE/workshop-tinkerforge-strom
+
+- event: Jugend Hackt Nord
+  title: Mentor
+  date: 2015-09-18
+
+- event: Devoxx4Kids Hamburg
+  title: Tinkerforge Workshop
+  date: 2015-06-06
+  link: https://github.com/devoxx4kids/materials/tree/master/workshops/InternetOfThings/Tinkerforge
+
+- event: Devoxx4Kids Karlsruhe
+  title: Tinkerforge Workshop
+  date: 2015-04-11
+  link: https://github.com/devoxx4kids/materials/tree/master/workshops/InternetOfThings/Tinkerforge
+
+- event: JavaLand 4 Kids
+  title: Tinkerforge Workshop
+  date: 2015-03-24
+  link: https://github.com/devoxx4kids/materials/tree/master/workshops/InternetOfThings/Tinkerforge
+
+- event: Devoxx4Kids Karlsruhe
+  title: Tinkerforge Workshop
+  date: 2014-09-27
+  link: https://github.com/devoxx4kids/materials/tree/master/workshops/InternetOfThings/Tinkerforge
