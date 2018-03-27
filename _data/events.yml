@@ -1,6 +1,10 @@
 - event: Software Engineering Lecture
   title: Domain Driven Design
-  date: 2018-04-00
+  date: 2018-05-08
+
+- event: Cloudbees automotive And Embedded Day
+  title: DevSecOps – Security at Devops speed
+  date: 2018-04-11
 
 - event: JavaLand
   title: Crypto 101
