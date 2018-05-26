@@ -1,6 +1,15 @@
 - event: Software Engineering Lecture
+  title: Crypto 101
+  date: 2018-05-18
+
+- event: Software Engineering Lecture
   title: Domain Driven Design
-  date: 2018-05-08
+  date: 2018-05-15
+
+- event: JUG Karlsruhe
+  title: Crypto 101
+  date: 2018-05-09
+  link: http://jug-karlsruhe.de/content/crypto-101/
 
 - event: Cloudbees automotive And Embedded Day
   title: DevSecOps – Security at Devops speed
