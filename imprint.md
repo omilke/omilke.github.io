@@ -6,8 +6,8 @@ permalink: /imprint/
 
 <div class='impressum'>
 <p>Angaben gemäß § 5 TMG</p><p>Oliver Milke <br> 
-Münstedter Straße 18<br> 
-38114 Braunschweig <br> 
+Hayerstr. 4<br> 
+38122 Braunschweig <br> 
 </p>
 <p> <strong>Vertreten durch: </strong><br>
 Oliver Milke<br>
