@@ -1,7 +1,17 @@
-- event: IT Tage
+- event: JavaLand
+  title: \#freeletics
+  date: 2018-12-10
+  link: https://programm.javaland.eu/2019/#/scheduledEvent/569030
+
+- event: JavaLand
+  title: 4 Kids - Nachwuchsförderung unter der Lupe
+  date: 2018-12-10
+  link: https://programm.javaland.eu/2019/#/scheduledEvent/568979
+
+- event: IT-Tage
   title: Challanges in DevOps
   date: 2018-12-10
-  link: https://www.ittage.informatik-aktuell.de/
+  link: https://www.ittage.informatik-aktuell.de/programm/2018/devops-ready-optimieren-sie-ihre-infrastruktur-und-prozesse-schritt-fuer-schritt/
 
 - event: Java Forum Nord
   title: Staff
