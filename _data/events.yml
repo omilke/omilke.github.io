@@ -1,12 +1,17 @@
 - event: JavaLand
   title: \#freeletics
-  date: 2018-12-10
+  date: 2019-03-19
   link: https://programm.javaland.eu/2019/#/scheduledEvent/569030
 
 - event: JavaLand
   title: 4 Kids - Nachwuchsförderung unter der Lupe
-  date: 2018-12-10
+  date: 2019-03-19
   link: https://programm.javaland.eu/2019/#/scheduledEvent/568979
+
+- event: DevOps Gathering
+  title: Continuous Delivery with Jenkins Pipelines
+  date: 2019-03-12
+  link: https://devops-gathering.io/talks/using-jenkins-pipeline-plugins-with-kubernetes/
 
 - event: IT-Tage
   title: Challanges in DevOps
