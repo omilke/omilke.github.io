@@ -1,3 +1,18 @@
+- event: IT Hub Braunschweig Conference
+  title: Staff and Speaker
+  date: 2019-11-16
+  link: ithubbs.de/conference
+
+- event: Java Forum Nord
+  title: Staff
+  date: 2019-09-24
+  link: https://javaforumnord.de/
+
+- event: Nexus User Conference (online)
+  title: DevSecOps Without Compromise: Cloudogu EcoSystem and Sonatype Nexus
+  date: 2019-06-12
+  link: https://sonatype.com/nexus-user-conference-2019
+
 - event: JavaLand
   title: \#freeletics
   date: 2019-03-19
@@ -9,12 +24,12 @@
   link: https://programm.javaland.eu/2019/#/scheduledEvent/568979
 
 - event: DevOps Gathering
-  title: Continuous Delivery with Jenkins Pipelines
+  title: Jenkins Pipelines in continuous action
   date: 2019-03-12
-  link: https://devops-gathering.io/talks/using-jenkins-pipeline-plugins-with-kubernetes/
+  link: https://www.youtube.com/watch?v=qy98ZykqMCc&list=PLfE26KO4gJKB1NyUJPu1Mk4EOLwM8cm1k&index=6&t=0s
 
 - event: IT-Tage
-  title: Challanges in DevOps
+  title: Challenges in DevOps
   date: 2018-12-10
   link: https://www.ittage.informatik-aktuell.de/programm/2018/devops-ready-optimieren-sie-ihre-infrastruktur-und-prozesse-schritt-fuer-schritt/
 
