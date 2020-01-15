@@ -1,5 +1,25 @@
 - event: IT-Hub Braunschweig Barcamp
   title: Staff and Speaker
+  date: 2020-11-07
+  link: ithubbs.de/conference
+
+- event: Java Forum Nord
+  title: Staff
+  date: 2020-09-17
+  link: https://javaforumnord.de/
+
+- event: JavaLand
+  title: '#freeletics'
+  date: 2020-03-17
+  link: https://programm.javaland.eu/2020/#/scheduledEvent/591461
+
+- event: JavaLand
+  title: 4 Kids - Nachwuchsförderung unter der Lupe
+  date: 2020-03-17
+  link: https://programm.javaland.eu/2020/#/scheduledEvent/591473
+
+- event: IT-Hub Braunschweig Barcamp
+  title: Staff and Speaker
   date: 2019-11-16
   link: ithubbs.de/conference
 
