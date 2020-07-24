@@ -1,12 +1,22 @@
-- event: IT-Hub Braunschweig Barcamp
+- event: JUG Darmstadt (omline)
+  title: Crypto 101
+  date: 2020-11-12
+  link: https://www.jug-da.de/2020/11/Kryptographie/
+
+- event: IT-Hub Braunschweig Barcamp (abgesagt)
   title: Staff and Speaker
   date: 2020-11-07
   link: https://www.ithubbs.de/conference
 
-- event: Java Forum Nord
+- event: Java Forum Nord (abgesagt)
   title: Staff
   date: 2020-09-17
   link: https://javaforumnord.de/
+
+- event: Forum Digitale Transformation
+  title: Crypto 101
+  date: 2020-07-17
+  link: https://forum-digitale-transformation.com/
 
 - event: JavaLand
   title: '#freeletics'
