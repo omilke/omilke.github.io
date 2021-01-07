@@ -6,8 +6,8 @@ permalink: /imprint/
 
 <div class='impressum'>
 <p>Angaben gemäß § 5 TMG</p><p>Oliver Milke <br> 
-Hayerstr. 4<br> 
-38122 Braunschweig <br> 
+Hauptstraße 32<br> 
+38530 Didderse <br> 
 </p>
 <p> <strong>Vertreten durch: </strong><br>
 Oliver Milke<br>
@@ -17,8 +17,8 @@ Oliver Milke<br>
 E-Mail: <a href='mailto:dev@oliver-milke.de'>dev@oliver-milke.de</a></p>
 <p><strong>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</strong><br>
 Oliver Milke <br> 
-Münstedter Straße 18<br> 
-38114 Braunschweig <br>
+Hauptstraße 32<br> 
+38530 Didderse <br>
 </p> 
 <p>
 <strong>Haftungsausschluss:</strong><br><br>
