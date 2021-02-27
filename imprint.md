@@ -1,5 +1,6 @@
 ---
-layout: page title: Imprint / Impressum permalink: /imprint/
+layout: page
+title: Imprint / Impressum permalink: /imprint/
 ---
 
 <div class='impressum'>
