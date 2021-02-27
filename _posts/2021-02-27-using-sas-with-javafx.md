@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Effectively using oh-my-zsh in Windows Subsystem for Linux (WSL)"
+title:  "Using Sass with JAVAFX (in maven)"
 date:   2021-02-27 09:00:00
 categories: practical, tools
 tags: [Maven, UI, JavaFX]
