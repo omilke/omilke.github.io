@@ -13,8 +13,6 @@ disqus_id: 18
 
 I have not published an article for a really, really long time, because I felt I had nothing to share. Now I do have the feeling I have just little bit worth sharing. 
 
-## Using Sass with JavaFX and maven
-
 In case you work with JavaFX you'll most likely use CSS for styling your application. When doing so, chances are you might enjoy some of the benefits Sass can bring to the table, especially in regard to IDE integration.
 
 <!--more-->
@@ -36,7 +34,7 @@ Actually, there's more to [Sass](https://sass-lang.com/guide) - but this is what
 
 IntelliJ IDEA is my favorite IDE, and it's just amazing. However, re-using the same colors as kind of variable never really worked that well with JavaFX-CSS. It has, however, great support for Sass :)
 
-### Using Sass in with JavaFX
+### Using Sass with JavaFX
 
 Once you're willing to use Sass with JavaFX, you'll likely find [an awesome article by Andres Almiray](https://andresalmiray.com/sassy-javafx/) providing just what you need to know. Kudos for saving me a lot of research :)
 
