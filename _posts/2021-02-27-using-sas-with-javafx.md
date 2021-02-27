@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using Sass with JAVAFX (in maven)"
+title:  "Using Sass with JavaFX (in maven)"
 date:   2021-02-27 09:00:00
 categories: practical, tools
 tags: [Maven, UI, JavaFX]
