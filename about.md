@@ -9,7 +9,7 @@ permalink: /about/
 
 I'm Olli and I have been passionate about coding for over a decade. My focus has been on Java backend projects, but I also enjoy trying out new and different stuff.
 
-I'm working as software craftsman at <a href="https://cloudogu.com/" target="_blank">cloudogu</a>, however opinions expressed
+I'm working as team lead at <a href="https://bredex.de/" target="_blank">BREDEX</a>, however opinions expressed
 on this blog are my own.
 
 
